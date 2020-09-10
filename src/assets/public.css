@@ -1,0 +1,92 @@
+html, body {
+    padding: 0;
+    margin: 0;
+	height: 100%;
+	font-size: 14px;
+	color: #333;
+}
+.el-input__inner {
+	border-radius: 2px !important;
+}
+.el-button {
+    border-radius: 2px;
+}
+.el-button.is-circle {
+    border-radius: 50%;
+}
+
+/* 滚动条 */
+::-webkit-scrollbar {
+	width: 2px;
+}
+::-webkit-scrollbar-thumb {
+	border-radius: 2.5px;
+	background: rgba(159, 159, 159, 0.5);
+}
+::-webkit-scrollbar-track {
+	background: rgba(225, 225, 225, 0.2);
+	border-radius: 2.5px;
+}
+
+/* 按钮 */
+.operate-btn-plain {
+	background-color:transparent;
+	outline: none;
+	font-size: 12px;
+	color: #999;
+	border: 1px solid #ccc;
+	font-weight: bolder;
+	border-radius: 1px;
+	line-height: 18px;
+}
+.operate-btn-plain:hover {
+	color: #409EFF;
+	border: 1px solid #409EFF;
+}
+.operate-btn-plain:active {
+	color: #409EFF;
+	border: 1px solid #409EFF;
+}
+.operate-btn-primary {
+	background-color: #409EFF;
+	outline: none;
+	font-size: 12px;
+	color: #ffffff;
+	border: none;
+	font-weight: bolder;
+	border-radius: 1px;
+	line-height: 18px;
+}
+.operate-btn-primary:hover {
+	background-color: rgb(108, 181, 255);
+}
+.operate-btn-primary:active {
+	background-color: rgb(38, 147, 255);
+}
+.operate-btn-danger {
+	background-color: #F56C6C;
+	outline: none;
+	font-size: 12px;
+	color: #ffffff;
+	border: none;
+	font-weight: bolder;
+	border-radius: 1px;
+	line-height: 18px;
+}
+.operate-btn-danger:hover {
+	background-color: rgb(255, 145, 145);
+}
+.operate-btn-danger:active {
+	background-color: #F56C6C;
+}
+
+/* 展示页面 */
+.table-warpper {
+	padding: 0 48px;
+}
+.block-content {
+	margin: 0 auto;
+	padding: 20px 20px;
+	background-color: #ffffff;
+	border-radius: 2px;
+}
